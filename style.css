@@ -141,7 +141,7 @@ h2 {
 	background-color: #C7C7C5;
 	background: rgba(204, 204, 204, 0.7);
 	display: inline-block;
-	width: 25rem;
+	width: 30rem;
 	margin-left: 75%;
 	color: #000;
 	height: 40%;
@@ -162,22 +162,25 @@ h2 {
 	background-color: #F4FF0B;
 	color: #000;
 	padding-bottom: 1rem;
+	border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    box-shadow: inset -3px 1px rgba(0,0,0,.2);
 }
 
 h3 {
 	font-family: 'Merriweather';
-	font-size:1.25rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 #columns {
-	display: inline-block;
-	vertical-align: top;
 	width: 100%;
+	background-color: #fff;
 }
 
 #column1 {
-		display: inline-block;
+	display: inline-block;
 	vertical-align: top;
 	width: 30%;
 	margin: 0;
@@ -185,7 +188,7 @@ h3 {
 }
 
 #column2 {
-		display: inline-block;
+	display: inline-block;
 	vertical-align: top;
 	width: 30%;
 	margin: 0;
@@ -193,7 +196,7 @@ h3 {
 }
 
 #column3 {
-		display: inline-block;
+	display: inline-block;
 	vertical-align: top;
 	width: 30%;
 	margin: 0;
